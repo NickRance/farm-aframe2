@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>360 Video</title>
+    <meta name="description" content="360 Video — A-Frame">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <a-entity position="0 30 5">
+        <a-camera></a-camera>
+    </a-entity>
+    <a-sky color="skyblue"></a-sky>
+    <a-assets>
+        <img id="ground" src="assets/dirt.jpg">
+    </a-assets>
+    <!-- Textured plane parallel to ground. -->
+    <a-plane src="#ground" height="100" width="100" rotation="-90 0 0"></a-plane>
+</a-scene>
+</body>
+</html>
