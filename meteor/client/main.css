@@ -1,0 +1,38 @@
+#gui {
+	letter-spacing: 0.5px;
+	font-size: 15px; font-weight: bold;
+}
+
+#gui #economy {
+	position: fixed;
+	z-index: 10;
+	top: 20px; left: 20px;
+	padding: 7px;
+	background: white; border-radius: 7px;
+}
+
+#gui #economy .field {
+	float: left; border-right: 2px solid rgba(0,0,0,0.2);
+	padding-left: 7px; padding-right: 7px;
+}
+
+#gui #controls {
+	position: fixed;
+	z-index: 10;
+	top: 20px; right: 20px;
+	padding: 7px;
+	background: white; border-radius: 7px;
+}
+
+#gui #controls .button {
+	padding: 7px; margin: 3px; margin-top: 7px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+#gui #controls .true {
+	background-color: black;
+	color: white;
+}
+
+.clear { clear: both; }

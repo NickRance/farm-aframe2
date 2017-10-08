@@ -1,0 +1,14 @@
+{
+  "name": "virtual",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "aframe": "^0.7.0",
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.3",
+    "meteor-node-stubs": "~0.2.4",
+    "threejs-camera-controller-first-person-desktop": "^5.0.1"
+  }
+}
