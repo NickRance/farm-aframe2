@@ -1,11 +1,11 @@
 {
 	"galaxy.meteor.com": {
 		"env": {
-			"ROOT_URL": "http://www.virtfarmer.com",
-			
-			"ENV": "caribeducationdata",
-			"MONGO_URL": "mongodb://gms-meteor:876gms739@caribeducationdata-shard-00-00-bfdnw.mongodb.net:27017,caribeducationdata-shard-00-01-bfdnw.mongodb.net:27017,caribeducationdata-shard-00-02-bfdnw.mongodb.net:27017/caribeducationdata?ssl=true&replicaSet=caribeducationdata-shard-0&authSource=admin&readPreference=primaryPreferred&w=majority&connectTimeoutMS=60000&socketTimeoutMS=60000",
-			"MONGO_OPLOG_URL": "mongodb://gms-oplog:876gms739@caribeducationdata-shard-00-00-bfdnw.mongodb.net:27017,caribeducationdata-shard-00-01-bfdnw.mongodb.net:27017,caribeducationdata-shard-00-02-bfdnw.mongodb.net:27017/local?ssl=true&replicaSet=caribeducationdata-shard-0&authSource=admin&readPreference=primaryPreferred&w=majority&connectTimeoutMS=60000&socketTimeoutMS=60000"
+			"ROOT_URL": "https://www.farmingonmars.fun",
+
+			"ENV": "farmingonmars",
+			"MONGO_URL": "mongodb://gizzada-meteor:876gizzada739@farmingonmars-shard-00-00-gvymk.mongodb.net:27017,farmingonmars-shard-00-01-gvymk.mongodb.net:27017,farmingonmars-shard-00-02-gvymk.mongodb.net:27017/farmingonmars?ssl=true&replicaSet=farmingonmars-shard-0&authSource=admin",
+			"MONGO_OPLOG_URL": "mongodb://gizzada-oplog:876gizzada739@farmingonmars-shard-00-00-gvymk.mongodb.net:27017,farmingonmars-shard-00-01-gvymk.mongodb.net:27017,farmingonmars-shard-00-02-gvymk.mongodb.net:27017/local?ssl=true&replicaSet=farmingonmars-shard-0&authSource=admin"
 		}
 	},
 	"public": {

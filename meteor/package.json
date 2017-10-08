@@ -6,7 +6,6 @@
   },
   "dependencies": {
     "aframe": "^0.7.0",
-    "aframe-slideshow-component": "^1.0.0",
     "babel-runtime": "^6.20.0",
     "bcrypt": "^1.0.3",
     "meteor-node-stubs": "~0.2.4",

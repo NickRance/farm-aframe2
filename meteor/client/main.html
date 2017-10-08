@@ -1,7 +1,6 @@
 
 
 <template name = 'scene'><div id = 'scene'>
-
   <a-scene>
     <a-assets>
       <img id="groundTexture" src="/assets/dirt.jpg">
@@ -9,36 +8,34 @@
 
         <img id="ground" src="assets/dirt.jpg">
         <a-asset-item id="tree" src="assets/tree/scene.gltf"></a-asset-item>
-        <a-asset-item id="farmhouse" src="assets/farmhouse/scene.gltf"></a-asset-item>
+        <a-asset-item id="farmhouse" src="assets/farm_house/scene.gltf"></a-asset-item>
         <a-asset-item id="mansion" src="assets/mansion/scene.gltf"></a-asset-item>
         <a-asset-item id="smallhouse" src="assets/smallhouse/scene.gltf"></a-asset-item>
         <a-asset-item id="villa" src="assets/villa/scene.gltf"></a-asset-item>
-        <a-asset-item id="weed" src="assets/weed/scene.gltf"></a-asset-item>
-        <a-asset-item id="snoop" src="assets/snoop_dogg/scene.gltf"></a-asset-item>
+
         <a-asset-item id="astronaut" src="assets/astronaut/scene.gltf"></a-asset-item>
-        <a-asset-item id="mars_base" src="assets/mars_base/scene.gltf"></a-asset-item>
-
     </a-assets>
-
-      <a-entity>
-          <audio autoplay muted loop>
-              <source src="assets/sounds/bgm.mp3" type="audio/mpeg">
-          </audio>
-      </a-entity>
+    
+    <a-entity>
+        <audio autoplay muted loop>
+            <source src="assets/sounds/bgm.mp3" type="audio/mpeg">
+        </audio>
+    </a-entity>
 
     <a-sky color="skyblue"></a-sky>
+    <a-sky id="bg" radius="270" src="#skyTexture" theta-length="90"></a-sky>
+    <a-cylinder id="ground" src="#groundTexture" repeat="4 4" radius="270" height="0"></a-cylinder>
 
+    <a-entity position="25 0 -22" scale = "0.06 0.06 0.06"> <a-gltf-model id = "mytree" src="#tree"></a-gltf-model> </a-entity>
+    <a-entity position="-3 0 -24" scale="0.01 0.01 0.01"> <a-gltf-model id = "house" src="#smallhouse"></a-gltf-model> </a-entity>
+    <!-- <a-entity position="10 0 -3" scale="0.5 0.5 0.5"> <a-gltf-model src="#mansion"></a-gltf-model> </a-entity> -->
 
-
-    <a-sky id="bg" radius="72" src="#skyTexture" theta-length="90"></a-sky>
-
-      <!--<a-entity aframe-slideshow="nbslides:6;folder:public/assets/slides/;namingConv:slide_%num%;startpos:1"></a-entity>-->
-
-      <a-entity position="10 0 -3" scale="0.5 0.5 0.5">
-        <a-gltf-model src="#mansion"></a-gltf-model>
+    <a-entity id = "snoop" position="20 0 -25" scale = "0.07 0.07 0.07"> 
+      <a-gltf-model src="#astronaut"></a-gltf-model> 
+      {{#with animation}} <a-animation attribute="{{property}}" dur="{{duration}}" from="{{from}}" to="{{to}}" fill="forwards" repeat="indefinite"></a-animation> {{/with}}
     </a-entity>
-    <a-cylinder id="ground" src="#groundTexture" radius="72" height="0"></a-cylinder>
-    <a-entity position="15 15 15">
+
+    <a-entity position="14 17 10">
         <a-camera>
           <a-entity cursor="fuse: false; fuseTimeout: 500"
                     position="0 0 -1"
@@ -50,7 +47,7 @@
 
     {{#each plots}}
       <a-entity position="{{x}} 0.01 {{z}}">
-          <a-plane opacity="0.7" cursor-listener id="{{x}},{{z}}" src="#ground" height="{{i}}" width="{{i}}" rotation="-90 0 0"></a-plane>
+          <a-plane cursor-listener id="{{x}},{{z}}" opacity="1" src="#ground" height="{{i}}" width="{{i}}" rotation="-90 0 0"></a-plane>
       </a-entity>
       <a-entity cursor-listener scale = "0.015 0.015 0.015" position="{{x2}} 0.01 {{z2}}"> <a-gltf-model id = "tree{{x}},{{z}}" src=""></a-gltf-model> </a-entity>
     {{/each}}
@@ -59,19 +56,17 @@
 </div></template>
 
 <template name = 'gui'><div id = 'gui'>
-
-
   <div id = 'economy'>
-    <div id = 'level' class = 'field'>Level 1</div>
+    <div id = 'time' class = 'field'>{{time}}</div>
     <div id = 'coins' class = 'field' style = 'border-right: none;'>{{coins}} Coins</div>
     <div class = 'clear'></div>
   </div>
 
-  <div id = 'controls'>
+  <!-- <div id = 'controls'>
     <div id = 'placedirt' class = '{{selectdigsoil}} button'>Dig Soil</div>
     <div id = 'placeseed' class = '{{selectplant}} button'>Plant</div>
     <div id = 'harvestplot' class = '{{selectharvest}} button'>Harvest</div>
-  </div>
+  </div> -->
 </div></template>
 
 <template name = 'client'> <div id = 'client'> {{> gui}} {{> scene}} </div> </template>
