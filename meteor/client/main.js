@@ -12,6 +12,7 @@
 */
 
 Session.set('coins',0); aframe = require('aframe');
+// require('aframe-slideshow-component');
 
 Template.client.onRendered(function () {
   var instance = this;
