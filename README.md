@@ -1,10 +1,10 @@
 # farm-aframe2
 
-##Plot
+## Plot
 
 Elwin Musk has asked Snoop Dogg to be the lead astronaut on SpaceZ's first manned mission to Mars. The goal of this mission is create the first farm on Mars to start growing food to support a future human colony. Of course the adventurous Dogg agrees, help Snoop manage his plots, grow his farm and become the first martian.
 
-##Building and Running
+## Building and Running
 
 1. Ensure you have meteor installed
 ```bash
@@ -26,7 +26,7 @@ firefox localhost:3000 NOTE:THIS PORT MAY BE DIFFERENT FOR YOUR ENVIRONMENT
 
 
 
-##Assets
+## Assets
 
 Each asset used in this folder can be found in the meteor/public/assets path
 Each directory has the link to the author's sketchfab page in the AUTHOR text folder
