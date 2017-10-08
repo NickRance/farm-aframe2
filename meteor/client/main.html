@@ -8,13 +8,20 @@
 
         <img id="ground" src="assets/dirt.jpg">
         <a-asset-item id="tree" src="assets/tree/scene.gltf"></a-asset-item>
+
     </a-assets>
 
     <a-sky color="skyblue"></a-sky>
+
+    <a-assets>
+      <audio autoplay loop>
+        <source src="/sounds/bgm.mp3" type="audio/mpeg">
+      </audio>
+    </a-assets>
+
     <a-sky id="bg" radius="72" src="#skyTexture" theta-length="90"></a-sky>
 
     <a-cylinder id="ground" src="#groundTexture" radius="72" height="0"></a-cylinder>
-
     <a-entity position="15 15 15">
         <a-camera>
           <a-entity cursor="fuse: false; fuseTimeout: 500"
@@ -36,9 +43,7 @@
 </div></template>
 
 <template name = 'gui'><div id = 'gui'>
-  <audio autoplay loop>
-      <source src="/sounds/bgm.mp3" type="audio/mpeg">
-  </audio>
+
 
   <div id = 'economy'>
     <div id = 'level' class = 'field'>Level 1</div>
