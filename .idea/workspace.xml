@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40ec49fe-eff5-4b8e-92da-dc50c12401b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meteor/client/main.html" afterPath="$PROJECT_DIR$/meteor/client/main.html" />
-    </list>
+    <list default="true" id="40ec49fe-eff5-4b8e-92da-dc50c12401b0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../LoL-aframe/.tmp/" />
     <ignored path="$PROJECT_DIR$/../LoL-aframe/temp/" />
     <ignored path="$PROJECT_DIR$/../LoL-aframe/tmp/" />
@@ -27,7 +24,7 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meteor/client/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="-210">
               <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding />
             </state>
@@ -379,23 +376,23 @@
       <workItem from="1507400742151" duration="4518000" />
       <workItem from="1507415740239" duration="47000" />
       <workItem from="1507415898869" duration="20525000" />
-      <workItem from="1507490940651" duration="3582000" />
+      <workItem from="1507490940651" duration="3639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28672000" />
+    <option name="totallyTimeSpent" value="28729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.50395364" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.4960464" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.4960464" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -423,7 +420,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1507496277956" expanded="true" signature="1804:2183" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2241:2741" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2257:2730" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2282:2465" ph="..." />
+            <marker date="1507496277956" expanded="false" signature="2383:2402" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2490:2723" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,9 +509,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meteor/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="-210">
           <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
+          <folding>
+            <marker date="1507496277956" expanded="true" signature="1804:2183" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2241:2741" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2257:2730" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2282:2465" ph="..." />
+            <marker date="1507496277956" expanded="false" signature="2383:2402" ph="..." />
+            <marker date="1507496277956" expanded="true" signature="2490:2723" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
