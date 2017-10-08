@@ -8,6 +8,8 @@
 
         <img id="ground" src="assets/dirt.jpg">
         <a-asset-item id="tree" src="assets/tree/scene.gltf"></a-asset-item>
+        <a-asset-item id="house" src="assets/farm_house0/scene.gltf"></a-asset-item>
+        <a-asset-item id="mansion" src="assets/mansion/scene.gltf"></a-asset-item>
 
     </a-assets>
 
@@ -21,6 +23,9 @@
 
     <a-sky id="bg" radius="72" src="#skyTexture" theta-length="90"></a-sky>
 
+    <a-entity position="1 1 1" scale="2 2 2">
+        <a-gltf-model src="#mansion"></a-gltf-model>
+    </a-entity>
     <a-cylinder id="ground" src="#groundTexture" radius="72" height="0"></a-cylinder>
     <a-entity position="15 15 15">
         <a-camera>
@@ -36,7 +41,7 @@
       <a-entity position="{{x}} 0.01 {{z}}">
           <a-plane cursor-listener id="{{x}},{{z}}" src="#ground" height="{{i}}" width="{{i}}" rotation="-90 0 0"></a-plane>
       </a-entity>
-      <a-entity cursor-listener scale = "0.015 0.015 0.015" position="{{x2}} 0.01 {{z2}}"> <a-gltf-model id = "tree{{x}},{{z}}" src=""></a-gltf-model> </a-entity>-->
+      <a-entity cursor-listener scale = "0.015 0.015 0.015" position="{{x2}} 0.01 {{z2}}"> <a-gltf-model id = "tree{{x}},{{z}}" src=""></a-gltf-model> </a-entity>
     {{/each}}
 
   </a-scene>

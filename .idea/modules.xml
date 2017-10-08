@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../farm-aframe/.idea/LoL-aframe.iml" filepath="$PROJECT_DIR$/../farm-aframe/.idea/LoL-aframe.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/farm-aframe2.iml" filepath="$PROJECT_DIR$/.idea/farm-aframe2.iml" />
     </modules>
   </component>
