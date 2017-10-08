@@ -46,7 +46,7 @@
 
     {{#each plots}}
       <a-entity position="{{x}} 0.01 {{z}}">
-          <a-plane cursor-listener id="{{x}},{{z}}" src="#ground" height="{{i}}" width="{{i}}" rotation="-90 0 0"></a-plane>
+          <a-plane opacity="0.7" cursor-listener id="{{x}},{{z}}" src="#ground" height="{{i}}" width="{{i}}" rotation="-90 0 0"></a-plane>
       </a-entity>
       <a-entity cursor-listener scale = "0.015 0.015 0.015" position="{{x2}} 0.01 {{z2}}"> <a-gltf-model id = "tree{{x}},{{z}}" src=""></a-gltf-model> </a-entity>
     {{/each}}
