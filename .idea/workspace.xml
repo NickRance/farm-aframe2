@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40ec49fe-eff5-4b8e-92da-dc50c12401b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meteor/client/main.html" afterPath="$PROJECT_DIR$/meteor/client/main.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../LoL-aframe/.tmp/" />
     <ignored path="$PROJECT_DIR$/../LoL-aframe/temp/" />
@@ -27,10 +26,10 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meteor/client/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
-                <marker date="1507497360576" expanded="false" signature="2557:2576" ph="..." />
+                <marker date="1507498946504" expanded="false" signature="2563:2582" ph="..." />
               </folding>
             </state>
           </provider>
@@ -381,12 +380,12 @@
       <workItem from="1507400742151" duration="4518000" />
       <workItem from="1507415740239" duration="47000" />
       <workItem from="1507415898869" duration="20525000" />
-      <workItem from="1507490940651" duration="4436000" />
+      <workItem from="1507490940651" duration="5097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29526000" />
+    <option name="totallyTimeSpent" value="30187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -426,7 +425,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding>
-            <marker date="1507497360576" expanded="false" signature="2557:2576" ph="..." />
+            <marker date="1507498946504" expanded="false" signature="2563:2582" ph="..." />
           </folding>
         </state>
       </provider>
@@ -509,10 +508,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meteor/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="255">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <marker date="1507497360576" expanded="false" signature="2557:2576" ph="..." />
+            <marker date="1507498946504" expanded="false" signature="2563:2582" ph="..." />
           </folding>
         </state>
       </provider>
