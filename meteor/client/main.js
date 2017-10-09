@@ -27,12 +27,17 @@ Template.client.onRendered(function () {
           var lastIndex = -1;
 
           this.el.addEventListener('click', function (evt) {
+            console.log(evt);
             if(evt.target.id.search('tree')){
               snoopmove(evt.target.id);
-            } else {
+            } else if(evt.target.id.search('house')){
+                  document.getElementById('house').setAttribute('src', '#mansion');
+              }
+            else {
               document.getElementById(evt.target.id).setAttribute('src', null);
               var coins = Session.get('coins')+3; Session.set('coins',coins);
             }
+
           });
           this.el.addEventListener('mouseenter', function (evt) {
             document.getElementById(evt.target.id).setAttribute('opacity', '0.4');
@@ -132,10 +137,20 @@ function snoopmove(landid) {
     to: landx + ' ' + land.object3D.position.y + ' ' + landz,
   }
 
+  if (landid == "-2,-30"){
+    if(session.get('coins')>=3){
+      document.getElementById('house').setAttribute('src', '#mars_base');
+  }}
+
   Session.set('animation',animation);
 
-  Meteor.setTimeout(function(){ 
-    document.getElementById('tree'+landid).setAttribute('src', '#tree');
-    Session.set('animation',null); 
+  Meteor.setTimeout(function(){
+    if (document.getElementById('tree'+landid).getAttribute('src')!='#tree'){
+        document.getElementById('tree'+landid).setAttribute('src', '#tree');
+    }
+    else{
+        document.getElementById('tree'+landid).setAttribute('src', '');
+    }
+      Session.set('animation',null);
   },animation.duration);
 }
